@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>zzzz | zzzz</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="loans HTML Template">
+	<meta name="keywords" content="loans, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="{{ url_for('static', filename='img/favicon.ico') }}" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+ 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css') }}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/slicknav.min.css') }}"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header Section -->
+	{% include 'header.html' %}
+
+	<!-- Header Section end -->
+
+	<!-- Page top Section end -->
+	<section class="page-top-section set-bg" data-setbg="{{ url_for('static', filename='img/page-top-bg/3.jpg') }}">
+		<div class="container">
+			<h2>News</h2>
+			<nav class="site-breadcrumb">
+				<a class="sb-item" href="#">Home</a>
+				<span class="sb-item active">News</span>
+			</nav>
+		</div>
+	</section>
+	<!-- Page top Section end -->
+
+	<!-- Blog Section end -->
+	<section class="blog-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="blog-post">
+						<img src="{{ url_for('static', filename='img/news/1.jpg') }}" alt="">
+						<div class="blog-date">Apr 08, 2019</div>
+						<h2 class="blog-title">How to apply for a good loan</h2>
+						<div class="blog-metas">
+							<div class="blog-meta">By Mark Smith </div>
+							<div class="blog-meta">In Loans</div>
+							<div class="blog-meta"> 3 comments</div>      
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti.</p>
+						<a href="#" class="readmore">Read More <img src="{{ url_for('static', filename='img/arrow.png') }}" alt=""></a>
+					</div>
+					<div class="blog-post">
+						<img src="{{ url_for('static', filename='img/news/2.jpg') }}" alt="">
+						<div class="blog-date">Apr 08, 2019</div>
+						<h2 class="blog-title">Tips to improve your credit rate</h2>
+						<div class="blog-metas">
+							<div class="blog-meta">By Mark Smith </div>
+							<div class="blog-meta">In Loans</div>
+							<div class="blog-meta"> 3 comments</div>      
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti.</p>
+						<a href="#" class="readmore">Read More <img src="{{ url_for('static', filename='img/arrow.png') }}" alt=""></a>
+					</div>
+					<div class="blog-post">
+						<img src="{{ url_for('static', filename='img/news/3.jpg') }}" alt="">
+						<div class="blog-date">Apr 08, 2019</div>
+						<h2 class="blog-title">10 ideas to spend your holliday </h2>
+						<div class="blog-metas">
+							<div class="blog-meta">By Mark Smith </div>
+							<div class="blog-meta">In Loans</div>
+							<div class="blog-meta"> 3 comments</div>      
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti.</p>
+						<a href="#" class="readmore">Read More <img src="{{ url_for('static', filename='img/arrow.png') }}" alt=""></a>
+					</div>
+					<div class="site-pagination">
+						<a href="#" class="active">01.</a>
+						<a href="#">02.</a>
+						<a href="#">03</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 sidebar">
+					<div class="sb-widget">
+						<form class="search-form">
+							<input type="text" placeholder="">
+							<button><img src="{{ url_for('static', filename='img/search-icon.png') }}" alt=""></button>
+						</form>
+					</div>
+					<div class="sb-widget">
+						<h2 class="sb-title">Categories</h2>
+						<ul>
+							<li><a href="#">Loans</a></li>
+							<li><a href="#">Credit Cards</a></li>
+							<li><a href="#">Quick Loans</a></li>
+							<li><a href="#">Uncategorized</a></li>
+						</ul>
+					</div>
+					<div class="sb-widget">
+						<h2 class="sb-title">Categories</h2>
+						<ul>
+							<li><a href="#">April 2019</a></li>
+							<li><a href="#">March 2019</a></li>
+							<li><a href="#">February 2019</a></li>
+							<li><a href="#">January 2019</a></li>
+							<li><a href="#">December 2018</a></li>
+						</ul>
+					</div>
+					<div class="sb-widget">
+						<h2 class="sb-title">Categories</h2>
+						<div class="tags">
+							<a href="#">tips & triks</a>
+							<a href="#">quick loans</a>
+							<a href="#">tips</a>
+							<a href="#">car loan</a>
+							<a href="#">wedding loan</a>
+							<a href="#">holliday loans</a>
+							<a href="#">credit & loans</a>
+						</div>
+					</div>
+					<div class="sb-widget">
+						<a href="#" class="add">
+							<img src="{{ url_for('static', filename='img/add.jpg') }}" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Blog Section end -->
+
+	<!-- Score Section end -->
+	<section class="score-section text-white set-bg" data-setbg="{{ url_for('static', filename='img/score-bg.jpg') }}">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-8">
+					<h2>Calculate my Score</h2>
+					<h4>Check your credit reports as often as you want, it won't affect your scores.</h4>
+					<a href="#" class="site-btn sb-big">show my score</a>
+				</div>
+			</div>
+			<img src="{{ url_for('static', filename='img/hand.png') }}" alt="" class="hand-img">
+		</div>
+	</section>
+	<!-- Score Section end -->
+
+	<!-- Footer Section -->
+	{% include 'footer.html' %}
+
+	<!-- Footer Section end -->
+	
+	<!--====== Javascripts & Jquery ======-->
+	<script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.slicknav.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery-ui.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>
